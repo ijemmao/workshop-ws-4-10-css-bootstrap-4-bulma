@@ -84,14 +84,13 @@ In the first columns, we include the code:
 This adds the Bootstrap logo to that div.
 
 For the other three columns, lets add some links like we did in our first lab. Copy and paste this code into each:
-```html
+
 <h5>Link Header</h3>
  <ul class="list-unstyled">
    <li>First</li>
    <li>Second</li>
    <li>Third</li>
  </ul>
-```
 
 ### Conclusions
 ### Additional Challenges
