@@ -9,6 +9,8 @@ Here's what we're going to be creating:
 
 <img src=#>
 
+Moving forward, you'll notice "Navigate to:" instructions below many of the following headings. These links are where we'll be pulling relevant code from and are important to the design of our webpage. Even though we'll provide many screenshots along the way, we suggest you navigate to the webpages and copy the code from there. It's not only faster, but it'll be a more realistic experience.
+
 ### Starting from scratch
 
 ##### Creating a new directory and .html file
@@ -24,11 +26,11 @@ bootstrap-project
 
 Navigate to: https://getbootstrap.com/docs/4.0/getting-started/introduction/
 
-On this page, you'll find quickstart instructions to using Bootstrap. In particular, we're most interested in the `Starter template`. Copy this code into `index.html`, and you're done. You've now connected your webpage to Bootstrap! Running `index.html` should look like this:
+On this page, you'll find quickstart instructions to using Bootstrap. In particular, we're most interested in the `Starter template`. Copy this code into `index.html`, and you're done. You've now connected your webpage to Bootstrap! Opening `index.html` in a browser should look like this:
 
 <img src=#>
 
-Before we move forward, edit the text within the `<title>` tags found in `<head>`, and delete
+Before we move forward, name your webpage by editing the text within the `<title>` tags found in `<head>`, and delete
 
 ```
 <h1> Hello, world!</h1>
@@ -42,7 +44,9 @@ We won't need this moving forward.
 
 Navigate to: https://getbootstrap.com/docs/4.0/components/navbar/.
 
-Here, you'll see a lot of navbar options. We'll be using the very first option. Copy and paste the code and place it directly under the opening <body> tag. Reloading your page and resizing the browser will show you exactly how your navbar will scale.
+Given that this is the first component we're looking at, we'll expand a bit more on what you're seeing. On this page, you'll find many navbar options and the relevant code for each. You're free to copy whichever you want to your webpage, and in particular, **our webpage utilizes the first option**. Copy and paste this code and place it directly under the opening `<body>` tag.
+
+Reload your page and resize your browser. It's already responsive!
 
 ##### Jumbotron
 
@@ -97,7 +101,7 @@ This adds the Bootstrap logo to that div.
 
 For the other three columns, lets add some links like we did in our first lab. Copy and paste this code into each:
 
-```javascript
+```html
   <h5>Link Header</h3>
   <ul class="list-unstyled">
     <li>First</li>
