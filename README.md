@@ -4,7 +4,7 @@ In this tutorial, we demonstrate the ability of bootstrap to simplify the websit
 
 Here's what we're going to be creating:
 
-![full page image...](img/done.png)
+![image...](img/done.png)
 
 Moving forward, you'll notice "Navigate to:" instructions below many of the following headings. These links are where we'll be pulling relevant code from and are important to the design of our webpage. Even though we'll provide many screenshots along the way, we suggest you navigate to the webpages and copy the code from there. It's not only faster, but it'll be a more realistic experience.
 
@@ -25,7 +25,7 @@ Navigate to: https://getbootstrap.com/docs/4.0/getting-started/introduction/
 
 On this page, you'll find quickstart instructions to using Bootstrap. In particular, we're most interested in the `Starter template`. Copy this code into `index.html`, and you're done. You've now connected your webpage to Bootstrap! Opening `index.html` in a browser should look like this:
 
-<img src=#>
+![image...](img/hello.png)
 
 Before we move forward, name your webpage by editing the text within the `<title>` tags found in `<head>`, and delete
 
@@ -45,17 +45,21 @@ Navigate to: https://getbootstrap.com/docs/4.0/components/navbar/.
 
 To begin, we'll start by adding a navbar to your page. Our website utilizes the **first option**, so copy and paste the associated code and place it directly under the opening `<body>` tag.
 
-Reload your page and resize your browser. It's already responsive!
+Reload your page and it should look like this.
 
-<img src=#>
+![image...](img/nav.png)
+
+Now try resizing the window. It's already responsive!
+
+![image...](img/hamburger.png)
 
 #### Jumbotron
 
 Navigate to: https://getbootstrap.com/docs/4.0/components/jumbotron/
 
-Next, we'll add a simple Jumbotron. Here, we also using the **first option**. Copy and paste this code directly below the `navbar` you just created.
+Next, we'll add a Jumbotron, which is Bootstrap's version of a Title area. Here, we also using the **first option**. Copy and paste this code directly below the `navbar` you just created.
 
-<img src=#>
+![image...](img/jumbotron.png)
 
 #### Card
 
@@ -65,7 +69,7 @@ Navigate to: https://getbootstrap.com/docs/4.0/layout/grid/.
 
 Copy the **first grid option**, and paste this under the `jumbotron`. Once this is done, reload the page to see the grid you've just created. You're now ready to introduce the cards.
 
-<img src=#>
+![image...](img/empty-cards.png)
 
 Navigate to: https://getbootstrap.com/docs/4.0/components/card/
 
@@ -89,7 +93,7 @@ Here's what one of these columns should look like after you're done:
 </div>
 ```
 
-<img src=#>
+![image...](img/cards.png)
 
 #### Collapse - Accordion
 
@@ -104,7 +108,7 @@ To begin, add a new row into the same container you created when you copied over
 </div>
 ```
 
-Lets now create two columns within our row:
+Lets now create two columns within our new row:
 
 ```html
 <div class="col-sm-4"></div>
@@ -116,8 +120,6 @@ Within `<div class="col-sm-4">`, add a card by copying and pasting the relevant 
 Navigate to: https://getbootstrap.com/docs/4.0/components/collapse/
 
 We'll be using the **Accordion** option. Copy and paste the relevant code to `<div class="col-sm-8">`. If you reload your page now, you'll see that the width of the accordian is twice the size of the width of the card.
-
-<img src=#>
 
 ##### Further Notes
 
@@ -136,7 +138,7 @@ Upon refresh, the first tab within the accordion opens automatically. If you don
 </div>
 ```
 
-<img src=#>
+![image...](img/accordion.png)
 
 #### Footer
 
@@ -149,8 +151,6 @@ Lets begin by creating our footer as a new row within our container. This should
 ```
 
 For aesthetic purposes, we add a border to this, which you can see by the addition of the class `border-top` to our `<footer>`. We further want to add some spacing between this border and the following columns, so we add `pt-4`. As you might have guessed, `pt-4` stands for `padding-top-4`, where the `4` represents the amount of spacing we want.
-
-<img src=#>
 
 Lets divide this row into four columns (the same way you did when creating our accordion).
 
@@ -174,7 +174,7 @@ For the other three columns, lets add some links similar to what we did in our f
   </ul>
 ```
 
-<img src=#>
+![image...](img/done.png)
 
 ### Conclusions
 ### Additional Challenges
