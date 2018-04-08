@@ -1,13 +1,10 @@
-# workshop-ws-4-10-css-bootstrap-4-bulma
-workshop-ws-4-10-css-bootstrap-4-bulma created by GitHub Classroom
-
 ## Bootstrapping your first website!
 
 In this tutorial, we demonstrate the ability of bootstrap to simplify the website design process. We focus on outlining a generic webpage to emphasize the use of pre-made bootstrap components and showcase Bootstrap's intuitive naming schemes and built-in grid system.
 
 Here's what we're going to be creating:
 
-<img src=#>
+![full page image...](img/done.png)
 
 Moving forward, you'll notice "Navigate to:" instructions below many of the following headings. These links are where we'll be pulling relevant code from and are important to the design of our webpage. Even though we'll provide many screenshots along the way, we suggest you navigate to the webpages and copy the code from there. It's not only faster, but it'll be a more realistic experience.
 
