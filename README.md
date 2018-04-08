@@ -13,15 +13,13 @@ The first step of creating your new webpage is easy and begins here: https://get
 
 Copy and paste the `Starter template` code to `index.html`, and you're done! You've now connected your webpage to Bootstrap.
 
-### Designing your webpage
-
-##### Using the Bootstrap Grid
-##### Creating a Navbar
-##### Adding Components
+### Using the Bootstrap Grid
+### Adding Components
+##### Navbar
 ##### Jumbotron
 ##### Carousel
 ##### Card
 ##### Collapse - Accordion
-### Creating a Footer
+##### Footer
 ### Conclusions
 ### Additional Challenges
