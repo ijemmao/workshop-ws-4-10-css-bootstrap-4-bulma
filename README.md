@@ -5,24 +5,36 @@ workshop-ws-4-10-css-bootstrap-4-bulma created by GitHub Classroom
 
 In this tutorial, we demonstrate the ability of bootstrap to simplify the website design process. We focus on outlining a generic webpage to emphasize the use of pre-made bootstrap components and showcase Bootstrap's intuitive naming schemes and built-in grid system.
 
-Here's what we'll have created by the end of this tutorial:
+Here's what we're going to be creating:
 
 <img src=#>
 
 ### Starting from scratch
 
-The first step of creating your new webpage is easy and begins here: https://getbootstrap.com/docs/4.0/getting-started/introduction/
+##### Creating a new directory and .html file
+
+As with any webpage, we'll start off by initializing a directory for our project and creating an `index.html` file. Here's what it looks like on our end, but feel free to name this whatever you want!
+
+```
+bootstrap-project
+- index.html
+```
+
+##### Linking index.html to Bootstrap
+
+Navigate to: https://getbootstrap.com/docs/4.0/getting-started/introduction/
+
+On this page, you'll find quickstart instructions to using Bootstrap. In particular, we're most interested in the `Starter template`. Copy this code into `index.html`, and you're done. You've now connected your webpage to Bootstrap! Running `index.html` should look like this:
 
 <img src=#>
 
-Copy and paste the `Starter template` code to `index.html`, and you're done! You've now connected your webpage to Bootstrap. You should see "Hello, world!" if you run index.html.
+Before we move forward, edit the text within the `<title>` tags found in `<head>`, and delete
 
-Rename your page by editing the text within <title></title> and delete <h1>Hello, world!</h1> so we can add more components later.
+```
+<h1> Hello, world!</h1>
+```
 
-<img src=#>
-
-### Using the Bootstrap Grid
-
+We won't need this moving forward.
 
 ### Adding Components
 
