@@ -137,8 +137,9 @@ Upon refresh, the first tab within the accordion opens automatically. If you don
   </div>
 </div>
 ```
-
+<kbd>
 ![image...](img/accordion.png)
+</kbd>
 
 #### Footer
 
@@ -157,9 +158,7 @@ Lets divide this row into four columns (the same way you did when creating our a
 In the first columns, we include the code:
 
  ```html
-<kbd>
-  <img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-</kbd>
+<img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
 <small class="d-block mb-3 text-muted">© 2017-2018</small>
 ```
 
