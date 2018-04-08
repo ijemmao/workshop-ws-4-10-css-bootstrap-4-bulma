@@ -175,7 +175,6 @@ For the other three columns, lets add some links similar to what we did in our f
 
 ![image...](img/done.png)
 
-### Conclusions
 ### Additional Challenges
 Congratulations! We finished early. Lets look at some other components.
 
