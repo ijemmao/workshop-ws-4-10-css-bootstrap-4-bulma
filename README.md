@@ -13,7 +13,7 @@ Moving forward, you'll notice "Navigate to:" instructions below many of the foll
 
 ### Starting from scratch
 
-##### Creating a new directory and .html file
+#### Creating a new directory and .html file
 
 As with any webpage, we'll start off by initializing a directory for our project and creating an `index.html` file. Here's what it looks like on our end, but feel free to name this whatever you want!
 
@@ -22,7 +22,7 @@ bootstrap-project
 - index.html
 ```
 
-##### Linking index.html to Bootstrap
+#### Linking index.html to Bootstrap
 
 Navigate to: https://getbootstrap.com/docs/4.0/getting-started/introduction/
 
@@ -32,7 +32,7 @@ On this page, you'll find quickstart instructions to using Bootstrap. In particu
 
 Before we move forward, name your webpage by editing the text within the `<title>` tags found in `<head>`, and delete
 
-```
+```html
 <h1> Hello, world!</h1>
 ```
 
@@ -40,66 +40,108 @@ We won't need this moving forward.
 
 ### Adding Components
 
-##### Navbar
+On the pages linked below, you'll find instructions on how to implement different components. Each includes several different options and the respective code required to create them. We'll **bold** the options we plan on using and let you know where you can find them.
+
+#### Navbar
 
 Navigate to: https://getbootstrap.com/docs/4.0/components/navbar/.
 
-Given that this is the first component we're looking at, we'll expand a bit more on what you're seeing. On this page, you'll find many navbar options and the relevant code for each. You're free to copy whichever you want to your webpage, and in particular, **our webpage utilizes the first option**. Copy and paste this code and place it directly under the opening `<body>` tag.
+To begin, we'll start by adding a navbar to your page. Our website utilizes the **first option**, so copy and paste the associated code and place it directly under the opening `<body>` tag.
 
 Reload your page and resize your browser. It's already responsive!
 
-##### Jumbotron
+#### Jumbotron
 
 Navigate to: https://getbootstrap.com/docs/4.0/components/jumbotron/
 
-Here, we're also using the first option. Copy and paste this code directly below the navbar you just created.
+Next, we'll add a simple Jumbotron. Here, we also using the **first option**. Copy and paste this code directly below the `navbar` you just created.
 
-##### Card
+#### Card
 
-Now we're going to put three cards in a row.
-
-In order to align these cards properly, we'll be using the Bootstrap grid system.
+Now things will become a bit more complicated! Lets add three cards to our page, and align them in a row. In order to accomplish this, we'll be using the **Bootstrap grid system**.
 
 Navigate to: https://getbootstrap.com/docs/4.0/layout/grid/.
 
-Copy the first grid option, and paste this under the jumbotron code. Once this is done, you'll be able to see the grid you've just created. You're now ready to introduce the cards into your code.
+Copy the **first grid option**, and paste this under the `jumbotron`. Once this is done, reload the page to see the grid you've just created. You're now ready to introduce the cards.
 
 Navigate to: https://getbootstrap.com/docs/4.0/components/card/
 
-We'll be using the card style located under `Titles, text, and links`. Replace the text `One of the three columns` with the associated card code. Note that these comes with a preset width, so remove `style="width: 18rem"` from `<div class="card">`.
+We'll be using the card style located directly under the **Titles, text, and links** heading. Copy and paste the associated code into each column and delete the original text (`One of the three columns`).
 
-##### Collapse - Accordion
+Note that these comes with a preset width, so remove `style="width: 18rem"` from `<div class="card">`.
 
-You can also split up a grid system into larger and smaller partition. Here, we'll add a single card to the left side of the screen, and a larger accordion to its right.
+Here's what one of these columns should look like after you're done:
 
-Add a new row into the container you created when you copied over the original grid.
+```html
+<div class="col-sm">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
+</div>
+```
 
-Lets create two columns: `<div class="col-sm-4"></div>` and `<div class="col-sm-8"></div>`.
+#### Collapse - Accordion
 
-Within `<div class="col-sm-4"></div>`, add a card by copy and pasting the associated code within the `<div>`.
+You can also split up grid system into larger and smaller partitions. In this section, we'll add a single card to the left side of the screen just like we did in the last step, and a larger accordion to its right.
+
+To begin, add a new row into the same container you created when you copied over the original grid. With everything collapsed, the format should look like this:
+
+```html
+<div class="container">
+  <div class="row">
+  <div class="row">
+</div>
+```
+
+Lets now create two columns within our row:
+
+```html
+<div class="col-sm-4"></div>
+<div class="col-sm-8"></div>
+```
+
+Within `<div class="col-sm-4">`, add a card by copying and pasting the relevant code from the `card` component section linked above. If you've forgotten how to do this, refer to the previous section.
 
 Navigate to: https://getbootstrap.com/docs/4.0/components/collapse/
 
-Within this webpage, there is an `Accordion` option. Copy and paste the code within `<div class="col-sm-8"></div>`. This accordion should be twice the width of the card.
+We'll be using the **Accordion** option. Copy and paste the relevant code to `<div class="col-sm-8">`. If you reload your page now, you'll see that the width of the accordian is twice the size of the width of the card.
 
-Notice how there is no padding on the top or bottom of your rows. Add the class `mb-4` to the `div class="row"` to create the spacing.
+##### Further Notes
 
-Note how the `<div>` with `id="collapseOne"` opens automatically upon refresh. If you would like to prevent it from doing so, delete the `show` class from this `<div>`.
+Within the grid system, there is no built-in padding on the top or bottom of your rows. Add the class `mb-4` to the `<div class="row">` to create this spacing.
 
-##### Footer
+Upon refresh, the first tab within the accordion opens automatically. If you don't want this to happen, identify `<div id="collapseOne">` and remove the `show` class.
 
-Creating a footer using Bootstrap takes a bit more manual work. Within the same container and below our second row, begin by creating a `<footer>`. Assign it the class `row`, such that your code looks like this: `<footer class="row">`.
+#### Footer
 
-For aesthetic purpose, we want to add a border to this. Add the class `border-top` to `<footer>`.
+Creating a footer using Bootstrap takes a bit more manual work because there are not pre-made classes. But don't worry - we already have all the tools we need to do this ourselves!
 
-In this row, lets add four columns, each with class `col-sm and mt-4`.`mt-4` will add a margin at the top of each column.
+Lets begin by creating our footer as a new row within our container. This should look like this:
+
+```html
+  <footer class="row border-top pt-4">
+```
+
+For aesthetic purposes, we add a border to this, which you can see by the addition of the class `border-top` to our `<footer>`. We further want to add some spacing between this border and the following columns, so we add `pt-4`. As you might have guessed, `pt-4` stands for `padding-top-4`, where the `4` represents the amount of spacing we want.
+
+Lets divide this row into four columns (the same way you did when creating our accordion).
 
 In the first columns, we include the code:
-  `<img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-  <small class="d-block mb-3 text-muted">© 2017-2018</small>`
-This adds the Bootstrap logo to that div.
 
-For the other three columns, lets add some links like we did in our first lab. Copy and paste this code into each:
+ ```html
+<img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+<small class="d-block mb-3 text-muted">© 2017-2018</small>
+```
+
+Don't worry about finding this code yourself. It just adds a Bootstrap logo and copyright symbol.
+
+For the other three columns, lets add some links similar to what we did in our first lab. Copy and paste this code into each:
 
 ```html
   <h5>Link Header</h3>
@@ -112,7 +154,6 @@ For the other three columns, lets add some links like we did in our first lab. C
 
 ### Conclusions
 ### Additional Challenges
-##### Carousel
-Navigate to: https://getbootstrap.com/docs/4.0/components/carousel/
 
-Let's add a carousel.
+#### Carousel
+Congratulations if you've made it this far!
