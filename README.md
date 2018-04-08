@@ -137,9 +137,7 @@ Upon refresh, the first tab within the accordion opens automatically. If you don
   </div>
 </div>
 ```
-<kbd>
 ![image...](img/accordion.png)
-</kbd>
 
 #### Footer
 
@@ -179,6 +177,18 @@ For the other three columns, lets add some links similar to what we did in our f
 
 ### Conclusions
 ### Additional Challenges
+Congratulations! We finished early. Lets look at some other components.
 
 #### Carousel
-Congratulations if you've made it this far!
+
+Navigate to: https://getbootstrap.com/docs/4.0/components/carousel/
+
+Let's try replacing the `jumbotron` with a `carousel`. Particularly, we're interested in using the option under **With Controls**.
+
+If you thought all we had to do was copy and paste, you were right. Copy the relevant code and replace the code associated with the `jumbotron` we created earlier.
+
+Finally, we'll need to add some images. Here are same sample URLs, but feel free to find your own!
+
+1: https://www.dartmouth.edu/~dartmouthdirect/wp-content/uploads/Dartmouth-Hall.jpeg
+2: https://www.library.dartmouth.edu/sites/default/files/media-images/dartmouth-library-tower-room-students-v2.jpg
+3: http://www.dartreview.com/wp-content/uploads/2015/01/Baker_Winter_0.jpg
