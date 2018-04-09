@@ -1,0 +1,28 @@
+﻿Questions:
+
+
+* why has bootstrap been so ubiquitous for so long?
+* what problems did it originally try to solve?  
+   * Bootstrap, originally named Twitter Blueprint, was developed by Mark Otto and Jacob Thornton at Twitter as a framework to encourage consistency across internal tools. Before Bootstrap, various libraries were used for interface development, which led to inconsistencies and a high maintenance burden. 
+* at one point the bootstrap look defined a generation of sites and maybe still does to some extent. Explain. 
+   * Due to consistency
+   * People migrating to CSS preprocessors like SASS
+* What it can do for us now, why might i want to use it / why would i not?  
+   * Might want to
+      * Predefined code
+      * Customizable
+      * Consistent
+      * Responsive
+      * Compatible
+   * Not want to
+      * Unoriginal / Too consistent
+      * Doesn't support SASS natively
+      * Density causes loading / battery issues
+
+
+https://www.devsaran.com/blog/10-best-reasons-use-bootstrap-amazing-web-designs
+
+
+
+
+http://markdotto.com/2012/01/17/bootstrap-in-a-list-apart-342/
