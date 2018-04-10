@@ -1,6 +1,6 @@
 ## Bootstrapping your first website!
 
-In this tutorial, we demonstrate the ability of bootstrap to simplify the website design process. We focus on outlining a generic webpage to emphasize the use of pre-made bootstrap components and showcase Bootstrap's intuitive naming schemes and built-in grid system.
+In this tutorial, we demonstrate the ability of bootstrap to simplify the website design process. We focus on outlining a generic webpage to emphasize the use of pre-made bootstrap components and showcase Bootstrap's intuitive naming schemes and built-in grid system. Bootstrap has many components included, and for the most part, all you have to do is create some divs and give them the correct classes. We'll only use a few, but we hope that in getting some experience with the ones we've chosen, you will be comfortable implementing the other components Bootstrap provides.
 
 Here's what we're going to be creating:
 
@@ -67,7 +67,7 @@ Now try resizing the window. It's already responsive!
 
 Navigate to: https://getbootstrap.com/docs/4.0/components/jumbotron/
 
-Next, we'll add a Jumbotron, which is Bootstrap's version of a Title area. Here, we also using the **first option**. Copy and paste this code directly below the `navbar` you just created.
+Next, we'll add a Jumbotron, which is Bootstrap's version of a Title area. Here, we also use the **first option**. Copy and paste this code directly below the `navbar` you just created.
 
 ![image...](img/jumbotron.png)
 
@@ -76,6 +76,8 @@ Next, we'll add a Jumbotron, which is Bootstrap's version of a Title area. Here,
 #### Card
 
 Now things will become a bit more complicated! Lets add three cards to our page, and align them in a row. In order to accomplish this, we'll be using the **Bootstrap grid system**.
+
+The Bootstrap grid system uses flexboxes under the hood to set up websites in a simple, intuitive manner. You can fit the different Bootstrap components into the grid and it should automatically be well formatted and responsive.
 
 Navigate to: https://getbootstrap.com/docs/4.0/layout/grid/.
 
@@ -145,7 +147,7 @@ Within the grid system, there is no built-in padding on the top or bottom of you
 <div class="row mb-4">
 ```
 
-Upon refresh, the first tab within the accordion opens automatically. If you don't want this to happen, identify `<div id="collapseOne">` and remove the `show` class.
+Upon refresh, the first tab within the accordion opens automatically. If you don't want this to happen, identify `<div id="collapseOne">` and remove the `show` class. Remember, Bootstrap is all about classes: when you want something changed, you can almost always add/remove a class to make the change.
 
 ```html
 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -159,7 +161,7 @@ Upon refresh, the first tab within the accordion opens automatically. If you don
 
 #### Footer
 
-Creating a footer using Bootstrap takes a bit more manual work because there are not pre-made classes. But don't worry - we already have all the tools we need to do this ourselves!
+Creating a footer using Bootstrap takes a bit more manual work because there are not pre-made classes. But don't worry - we already have all the tools we need to do this ourselves (aka Bootstrap provides lots of classes that will make this easy)!
 
 Lets begin by creating our footer as a new row within our container. This should look like this:
 
@@ -195,6 +197,16 @@ For the other three columns, lets add some links similar to what we did in our f
 
 ---
 
+### What we have so far
+Wow, in such a short time, we've come so far! At this point, you should have a uniformly styled, aesthetically pleasing website. Often times you will want to expand on this and add your own styling, but this is a great way to quickly prototype and format a website. Here's what we have so far:
+
+- [x] A responsive navbar that becomes a hamburger menu on smaller screens
+- [x] A jumbotron header for the website
+- [x] A nicely space, formatted, and responsive grid containig some cards and an accordian
+- [x] A footer as a part of the grid with some final links
+
+---
+
 ### Additional Challenges
 Congratulations! We finished early. Lets look at some other components.
 
@@ -213,3 +225,5 @@ Finally, we'll need to add some images. Here are same sample URLs, but feel free
 2: https://www.library.dartmouth.edu/sites/default/files/media-images/dartmouth-library-tower-room-students-v2.jpg   
 
 3: http://www.dartreview.com/wp-content/uploads/2015/01/Baker_Winter_0.jpg
+
+As we haven't fully covered Javascript yet, we chose to stick mostly to the CSS component part of Bootstrap. Bootstrap also, however, provides some fun javascript functionality as well such as [Scrollspy](https://getbootstrap.com/docs/4.0/components/scrollspy/) and [Modals](https://getbootstrap.com/docs/4.0/components/modal/).
