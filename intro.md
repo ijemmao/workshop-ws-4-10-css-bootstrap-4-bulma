@@ -8,14 +8,8 @@ Isaac Gluck, Robert Livaudais, Braden Pellowski, Raul Rodriguez, Kevin Xue
 
 # What is Bootstrap?
 
-<<<<<<< HEAD
 ##### Taken verbatim from their [website](https://getbootstrap.com/): 
-=======
-Taken verbatim from their [website](https://getbootstrap.com/):
->Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.
-=======
-##### Taken verbatim from their [website](https://getbootstrap.com/):
->>>>>>> 537646d94935c008b7c71990629da64a391abc7d
+
 >"Bootstrap is an open source toolkit for developing with HTML, CSS, and JS."
 
 
@@ -30,8 +24,6 @@ Taken verbatim from their [website](https://getbootstrap.com/):
 
 Prior to Bootstrap's inception building from scratch was a tedious manual process.
 
-#### *There is a JavaScript component to Bootstrap, too, but this presentation will only cover the CSS component
-=======
 In the early 2010's Twitter began the construction of an internal tool used to "document and share common design patterns and assets within the company."
 
 
@@ -43,10 +35,7 @@ Twitter proceeded to release an open source version of the tool titled Bootstrap
 # Why should you use Bootstrap?
 
 ##### Numerous core competencies position Bootstrap as an outstanding candidate for simple to intermediate web design
-
 ---
-> Dave, is the site mobile responsive yet?
-=======
 # Here's one
 ##### Bootstrap is mobile-first and incredibly responsive:
 > Hey, Dave — is the site mobile responsive yet?
@@ -117,7 +106,7 @@ ul.topnav li {float: left;}
 <div class="alert alert-primary" role="alert">
   A simple primary alert—check it out!
 </div>
-=======
+
 # Here's another
 ##### Predefined classes enable efficient and reliable coding:
 
