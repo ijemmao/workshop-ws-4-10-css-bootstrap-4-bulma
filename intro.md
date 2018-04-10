@@ -206,7 +206,7 @@ As such, no similar tool has yet outpaced Bootstrap.
 
 # Here's one reason:
 
-##### Bootstrap is heavy - coming loaded with an above average amount of CSS and JS code base. Paired with a weak internet connection, pages built using Bootstrap load very slowly. <sup>3</sup>*
+##### Bootstrap can be heavy - coming loaded with an above average amount of CSS and JS code base. Paired with a weak internet connection, pages built using Bootstrap load very slowly. <sup>3</sup>*
 
 ###### * That is, assuming you're using a Bootstrap 4 component that requires JavaScript to function (i.e. *tooltips* and *alerts*)
 
