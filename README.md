@@ -8,6 +8,8 @@ Here's what we're going to be creating:
 
 Moving forward, you'll notice "Navigate to:" instructions below many of the following headings. These links are where we'll be pulling relevant code from and are important to the design of our webpage. Even though we'll provide many screenshots along the way, we suggest you navigate to the webpages and copy the code from there. It's not only faster, but it'll be a more realistic experience.
 
+---
+
 ### Starting from scratch
 
 #### Creating a new directory and .html file
@@ -18,6 +20,8 @@ As with any webpage, we'll start off by initializing a directory for our project
 bootstrap-project
 - index.html
 ```
+
+---
 
 #### Linking index.html to Bootstrap
 
@@ -35,9 +39,13 @@ Before we move forward, name your webpage by editing the text within the `<title
 
 We won't need this moving forward.
 
+---
+
 ### Adding Components
 
 On the pages linked below, you'll find instructions on how to implement different components. Each includes several different options and the respective code required to create them. We'll **bold** the options we plan on using and let you know where you can find them.
+
+---
 
 #### Navbar
 
@@ -53,6 +61,8 @@ Now try resizing the window. It's already responsive!
 
 ![image...](img/hamburger.png)
 
+---
+
 #### Jumbotron
 
 Navigate to: https://getbootstrap.com/docs/4.0/components/jumbotron/
@@ -60,6 +70,8 @@ Navigate to: https://getbootstrap.com/docs/4.0/components/jumbotron/
 Next, we'll add a Jumbotron, which is Bootstrap's version of a Title area. Here, we also using the **first option**. Copy and paste this code directly below the `navbar` you just created.
 
 ![image...](img/jumbotron.png)
+
+---
 
 #### Card
 
@@ -95,6 +107,8 @@ Here's what one of these columns should look like after you're done:
 
 ![image...](img/cards.png)
 
+---
+
 #### Collapse - Accordion
 
 You can also split up grid system into larger and smaller partitions. In this section, we'll add a single card to the left side of the screen just like we did in the last step, and a larger accordion to its right.
@@ -121,6 +135,8 @@ Navigate to: https://getbootstrap.com/docs/4.0/components/collapse/
 
 We'll be using the **Accordion** option. Copy and paste the relevant code to `<div class="col-sm-8">`. If you reload your page now, you'll see that the width of the accordian is twice the size of the width of the card.
 
+---
+
 ##### Further Notes
 
 Within the grid system, there is no built-in padding on the top or bottom of your rows. Add the class `mb-4` to the `<div class="row">` to create this spacing.
@@ -138,6 +154,8 @@ Upon refresh, the first tab within the accordion opens automatically. If you don
 </div>
 ```
 ![image...](img/accordion.png)
+
+---
 
 #### Footer
 
@@ -174,6 +192,8 @@ For the other three columns, lets add some links similar to what we did in our f
 ```
 
 ![image...](img/done.png)
+
+---
 
 ### Additional Challenges
 Congratulations! We finished early. Lets look at some other components.
