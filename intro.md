@@ -82,6 +82,7 @@ ul.topnav li {float: left;}
 
 ---
 
+
 # Why Bootstrap and not other libraries?
 1. cross-browser compatibility
 2. lightweight (CSS, at least 🤷) and easy to customize
@@ -107,6 +108,17 @@ ul.topnav li {float: left;}
   A simple primary alert—check it out!
 </div>
 
+--- 
+
+# Bootstrap's ubiquity and longevity
+##### Why has Bootstrap been so popular for so long?
+
+These features have endowed Bootstrap with an incredible degree of popularity, which in turn has thusly provided a much needed level of consistency across the web development community.
+
+As such, no similar tool has yet outpaced Bootstrap.
+
+---
+
 # Here's another
 ##### Predefined classes enable efficient and reliable coding:
 
@@ -119,16 +131,6 @@ ul.topnav li {float: left;}
 
 <!--- insert example --->
 
-
----
-
-
-# Bootstrap's ubiquity and longevity
-##### Why has Bootstrap been so popular for so long?
-
-These features have endowed Bootstrap with an incredible degree of popularity, which in turn has thusly provided a much needed level of consistency across the web development community.
-
-As such, no similar tool has yet outpaced Bootstrap.
 
 ---
 
