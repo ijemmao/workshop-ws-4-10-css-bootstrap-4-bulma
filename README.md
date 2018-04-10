@@ -8,9 +8,11 @@ Here's what we're going to be creating:
 
 Moving forward, you'll notice "Navigate to:" instructions below many of the following headings. These links are where we'll be pulling relevant code from and are important to the design of our webpage. Even though we'll provide many screenshots along the way, we suggest you navigate to the webpages and copy the code from there. It's not only faster, but it'll be a more realistic experience.
 
-### Starting from scratch
+---
 
-#### Creating a new directory and .html file
+## Starting from scratch
+
+### Creating a new directory and .html file
 
 As with any webpage, we'll start off by initializing a directory for our project and creating an `index.html` file. Here's what it looks like on our end, but feel free to name this whatever you want!
 
@@ -19,7 +21,9 @@ bootstrap-project
 - index.html
 ```
 
-#### Linking index.html to Bootstrap
+---
+
+### Linking index.html to Bootstrap
 
 Navigate to: https://getbootstrap.com/docs/4.0/getting-started/introduction/
 
@@ -35,11 +39,15 @@ Before we move forward, name your webpage by editing the text within the `<title
 
 We won't need this moving forward.
 
-### Adding Components
+---
+
+## Adding Components
 
 On the pages linked below, you'll find instructions on how to implement different components. Each includes several different options and the respective code required to create them. We'll **bold** the options we plan on using and let you know where you can find them.
 
-#### Navbar
+---
+
+### Navbar
 
 Navigate to: https://getbootstrap.com/docs/4.0/components/navbar/.
 
@@ -53,15 +61,25 @@ Now try resizing the window. It's already responsive!
 
 ![image...](img/hamburger.png)
 
-#### Jumbotron
+---
+
+### Jumbotron
 
 Navigate to: https://getbootstrap.com/docs/4.0/components/jumbotron/
 
 Next, we'll add a Jumbotron, which is Bootstrap's version of a Title area. Here, we also use the **first option**. Copy and paste this code directly below the `navbar` you just created.
 
+```HTML
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="jumbotron">
+```
+
 ![image...](img/jumbotron.png)
 
-#### Card
+---
+
+### Card
 
 Now things will become a bit more complicated! Lets add three cards to our page, and align them in a row. In order to accomplish this, we'll be using the **Bootstrap grid system**.
 
@@ -97,7 +115,9 @@ Here's what one of these columns should look like after you're done:
 
 ![image...](img/cards.png)
 
-#### Collapse - Accordion
+---
+
+### Collapse - Accordion
 
 You can also split up grid system into larger and smaller partitions. In this section, we'll add a single card to the left side of the screen just like we did in the last step, and a larger accordion to its right.
 
@@ -113,8 +133,10 @@ To begin, add a new row into the same container you created when you copied over
 Lets now create two columns within our new row:
 
 ```html
-<div class="col-sm-4"></div>
-<div class="col-sm-8"></div>
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-8"></div>
+</div>
 ```
 
 Within `<div class="col-sm-4">`, add a card by copying and pasting the relevant code from the `card` component section linked above. If you've forgotten how to do this, refer to the previous section.
@@ -123,7 +145,9 @@ Navigate to: https://getbootstrap.com/docs/4.0/components/collapse/
 
 We'll be using the **Accordion** option. Copy and paste the relevant code to `<div class="col-sm-8">`. If you reload your page now, you'll see that the width of the accordian is twice the size of the width of the card.
 
-##### Further Notes
+---
+
+#### Further Notes
 
 Within the grid system, there is no built-in padding on the top or bottom of your rows. Add the class `mb-4` to the `<div class="row">` to create this spacing.
 
@@ -141,7 +165,9 @@ Upon refresh, the first tab within the accordion opens automatically. If you don
 ```
 ![image...](img/accordion.png)
 
-#### Footer
+---
+
+### Footer
 
 Creating a footer using Bootstrap takes a bit more manual work because there are not pre-made classes. But don't worry - we already have all the tools we need to do this ourselves (aka Bootstrap provides lots of classes that will make this easy)!
 
@@ -177,18 +203,48 @@ For the other three columns, lets add some links similar to what we did in our f
 
 ![image...](img/done.png)
 
-### What we have so far
+---
+
+## What we have so far
 Wow, in such a short time, we've come so far! At this point, you should have a uniformly styled, aesthetically pleasing website. Often times you will want to expand on this and add your own styling, but this is a great way to quickly prototype and format a website. Here's what we have so far:
 
 - [x] A responsive navbar that becomes a hamburger menu on smaller screens
 - [x] A jumbotron header for the website
-- [x] A nicely space, formatted, and responsive grid containig some cards and an accordian
+- [x] A nicely spaced, formatted, and responsive grid containig some cards and an accordian
 - [x] A footer as a part of the grid with some final links
 
-### Additional Challenges
-Congratulations! We finished early. Lets look at some other components.
+In case you got lost along the way, here's a look at our page with all the components collapsed:
 
-#### Carousel
+```html
+<html lang="en">
+  <head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+    <div class="jumbotron">
+    <div class="container">
+      <div class="row mb-4">
+      <div class="row mb-4">
+      <footer class="row border-top pt-4">
+    </div>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+  </html>
+```
+
+---
+
+## Additional Challenges
+Congratulations! We finished early. Lets look at some other components, or just jump to the styling section and look at options there!
+
+---
+
+### Carousel
 
 Navigate to: https://getbootstrap.com/docs/4.0/components/carousel/
 
@@ -205,3 +261,9 @@ Finally, we'll need to add some images. Here are same sample URLs, but feel free
 3: http://www.dartreview.com/wp-content/uploads/2015/01/Baker_Winter_0.jpg
 
 As we haven't fully covered Javascript yet, we chose to stick mostly to the CSS component part of Bootstrap. Bootstrap also, however, provides some fun javascript functionality as well such as [Scrollspy](https://getbootstrap.com/docs/4.0/components/scrollspy/) and [Modals](https://getbootstrap.com/docs/4.0/components/modal/).
+
+---
+
+### Styling
+
+Navigate to: https://getbootstrap.com/docs/4.1/utilities/
