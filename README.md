@@ -208,10 +208,10 @@ For the other three columns, lets add some links similar to what we did in our f
 ## What we have so far
 Wow, in such a short time, we've come so far! At this point, you should have a uniformly styled, aesthetically pleasing website. Often times you will want to expand on this and add your own styling, but this is a great way to quickly prototype and format a website. Here's what we have so far:
 
-- [x] A responsive navbar that becomes a hamburger menu on smaller screens
-- [x] A jumbotron header for the website
-- [x] A nicely spaced, formatted, and responsive grid containig some cards and an accordian
-- [x] A footer as a part of the grid with some final links
+- [x] A responsive `navbar` that becomes a hamburger menu on smaller screens
+- [x] A `jumbotron` header for the website
+- [x] A nicely spaced, formatted, and responsive `grid` containing some `cards` and an `accordion`
+- [x] A `footer` as a part of the grid with some final links
 
 In case you got lost along the way, here's a look at our page with all the components collapsed:
 
