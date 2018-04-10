@@ -157,12 +157,11 @@ Twitter proceeded to release an open source version of the tool titled Bootstrap
 <!-- slide 14 -->
 # Why Bootstrap and not other libraries?
 1. cross-browser compatibility
-2. lightweight (CSS, at least) and easy to customize
-3. responsive compoents
-4. good documentation and large community 🤗
-5. now supports [Sass](http://sass-lang.com/)
-6. templates
-7. grid system
+2. responsive compoents
+3. good documentation and large community 🤗
+4. now supports [Sass](http://sass-lang.com/)
+5. templates
+6. grid system
 
 ---
 
