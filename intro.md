@@ -33,16 +33,7 @@ Twitter proceeded to release an open source version of the tool titled Bootstrap
 
 ---
 
-<!-- slide 3 -->
 
-# Bootstrap's ubiquity and longevity
-##### Why has Bootstrap been so popular for so long?
-
-These features have endowed Bootstrap with an incredible degree of popularity, which in turn has thusly provided a much needed level of consistency across the web development community.
-
-As such, no similar tool has yet outpaced Bootstrap.
-
----
 
 <!-- slide 4 -->
 
@@ -161,6 +152,8 @@ As such, no similar tool has yet outpaced Bootstrap.
 
 ---
 
+
+
 <!-- slide 14 -->
 # Why Bootstrap and not other libraries?
 1. cross-browser compatibility
@@ -174,7 +167,7 @@ As such, no similar tool has yet outpaced Bootstrap.
 ---
 
 <!-- slide 15 -->
-# In general, *structure* and *components*
+# In general, Bootstrap provides *structure* and *components*
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 <div class="row">
@@ -193,6 +186,17 @@ As such, no similar tool has yet outpaced Bootstrap.
 #### Bootstrap *4* uses a mobile-first flexbox grid
 
 ---
+<!-- slide 3 -->
+
+# Bootstrap's ubiquity and longevity
+##### Why has Bootstrap been so popular for so long?
+
+These features have endowed Bootstrap with an incredible degree of popularity, which in turn has thusly provided a much needed level of consistency across the web development community.
+
+As such, no similar tool has yet outpaced Bootstrap.
+
+---
+
 
 <!-- slide 16 -->
 
