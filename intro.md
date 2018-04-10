@@ -25,7 +25,7 @@ Isaac Gluck, Robert Livaudais, Braden Pellowski, Raul Rodriguez, Kevin Xue
 # Let's take a step back
 ##### How and why was Bootstrap created?
 
-Prior to Bootstrap's inception building from scratch was a tedious manual process.
+Prior to Bootstrap's inception, building from scratch was a tedious manual process.
 
 In the early 2010's Twitter began the construction of an internal tool used to "document and share common design patterns and assets within the company."
 
@@ -37,7 +37,7 @@ Twitter proceeded to release an open source version of the tool titled Bootstrap
 
 <!-- slide 4 -->
 
-# Where does Boostrap fit into all of this?
+# Where does Boostrap fit into the web dev process?
 - [ ] dev tool
 - [x] front-end framework
 - [ ] pre-processor
