@@ -212,14 +212,6 @@ As such, no similar tool has yet outpaced Bootstrap.
 
 ---
 
-<!-- slide 18 -->
-
-# Here's another:
-
-##### Bootstrap does not support SASS natively. SASS speeds up CSS styling cia preprocessing (we'll learn more about this later in the term), so SASS's incompatibility can rule out Bootstrap as a viable candidate for certain projects. <sup>3</sup>
-
----
-
 <!-- slide 19 -->
 
 # And another:
