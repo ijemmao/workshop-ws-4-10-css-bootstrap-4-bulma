@@ -53,6 +53,8 @@ Navigate to: https://getbootstrap.com/docs/4.0/components/navbar/.
 
 To begin, we'll start by adding a navbar to your page. Our website utilizes the **first option**, so copy and paste the associated code and place it directly under the opening `<body>` tag.
 
+If you want, you can make the navbar stick to the top of the screen. Just add the class `sticky-top` to the `nav` element and voilá! Remember, if there is a functionality you want, there's probably a class for it.
+
 Reload your page and it should look like this.
 
 ![image...](img/nav.png)
@@ -115,6 +117,8 @@ Here's what one of these columns should look like after you're done:
 
 ![image...](img/cards.png)
 
+If you'd like to spice up your cards a little bit, Bootstrap provides a lot of options. You can use cards with images: https://getbootstrap.com/docs/4.0/components/card/#images. There are list groups: https://getbootstrap.com/docs/4.0/components/card/#list-groups. And there are plenty more. Feel free to use any of the options you see!
+
 ---
 
 ### Collapse - Accordion
@@ -147,7 +151,7 @@ We'll be using the **Accordion** option. Copy and paste the relevant code to `<d
 
 ---
 
-#### Further Notes
+#### A Few Style Changes
 
 Within the grid system, there is no built-in padding on the top or bottom of your rows. Add the class `mb-4` to the `<div class="row">` to create this spacing.
 
@@ -155,7 +159,7 @@ Within the grid system, there is no built-in padding on the top or bottom of you
 <div class="row mb-4">
 ```
 
-Upon refresh, the first tab within the accordion opens automatically. If you don't want this to happen, identify `<div id="collapseOne">` and remove the `show` class. Remember, Bootstrap is all about classes: when you want something changed, you can almost always add/remove a class to make the change.
+Upon refresh, the first tab within the accordion also opens automatically. If you don't want this to happen, identify `<div id="collapseOne">` and remove the `show` class. Remember, Bootstrap is all about classes: when you want something changed, you can almost always add/remove a class to make the change.
 
 ```html
 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -220,15 +224,13 @@ In case you got lost along the way, here's a look at our page with all the compo
   <head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-
     <div class="jumbotron">
     <div class="container">
       <div class="row mb-4">
       <div class="row mb-4">
       <footer class="row border-top pt-4">
     </div>
-  <!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -240,7 +242,38 @@ In case you got lost along the way, here's a look at our page with all the compo
 ---
 
 ## Additional Challenges
-Congratulations! We finished early. Lets look at some other components, or just jump to the styling section and look at options there!
+Congratulations! We finished early. Lets look at the styling section and check out some options there! There's also some notes on implementing carousels and notes on JavaScript below.
+
+---
+
+### Styling
+
+Navigate to: https://getbootstrap.com/docs/4.0/utilities/
+
+Here, you'll find lots of styling options to add some personality to your page.
+
+We played with some borders and colors and came up with a few ideas. Here they are, but we encourage you to mix and match some colors and styles. Some components (like the `navbar`) have notes within their `components` page too.
+
+```HTML
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+<div class="jumbotron bg-warning">
+
+<div class="card border border-primary bg-light">
+
+<h5 class="card-title text-primary">Card title</h5>
+
+<div class="card border border-success bg-light">
+
+<h5 class="card-title text-success">Card title</h5>
+
+<div class="card border border-danger bg-light">
+
+<h5 class="card-title text-danger">Card title</h5>
+```
+
+Look at what we made with a few simple classes:
+![image...](img/styled.png)
 
 ---
 
@@ -260,10 +293,10 @@ Finally, we'll need to add some images. Here are same sample URLs, but feel free
 
 3: http://www.dartreview.com/wp-content/uploads/2015/01/Baker_Winter_0.jpg
 
+---
+
+### JavaScript
+
 As we haven't fully covered Javascript yet, we chose to stick mostly to the CSS component part of Bootstrap. Bootstrap also, however, provides some fun javascript functionality as well such as [Scrollspy](https://getbootstrap.com/docs/4.0/components/scrollspy/) and [Modals](https://getbootstrap.com/docs/4.0/components/modal/).
 
 ---
-
-### Styling
-
-Navigate to: https://getbootstrap.com/docs/4.1/utilities/

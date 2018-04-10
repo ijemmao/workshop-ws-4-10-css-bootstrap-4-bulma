@@ -29,7 +29,6 @@ Prior to Bootstrap's inception building from scratch was a tedious manual proces
 
 In the early 2010's Twitter began the construction of an internal tool used to "document and share common design patterns and assets within the company."
 
-
 Twitter proceeded to release an open source version of the tool titled Bootstrap, which was received  with great acclaim.
 
 ---
@@ -60,9 +59,7 @@ As such, no similar tool has yet outpaced Bootstrap.
 
 ---
 
-
 <!-- slide 6 -->
-
 # Why should you use Bootstrap?
 
 ##### Numerous core competencies position Bootstrap as an outstanding candidate for simple to intermediate web design
@@ -196,6 +193,7 @@ As such, no similar tool has yet outpaced Bootstrap.
 #### Bootstrap *4* uses a mobile-first flexbox grid
 
 ---
+
 <!-- slide 16 -->
 
 # Why would one *not* use Bootstrap?
@@ -203,6 +201,7 @@ As such, no similar tool has yet outpaced Bootstrap.
 ##### Despite its wonderful qualities, Bootstrap is not without shortcomings
 
 ---
+
 <!-- slide 17 -->
 
 # Here's one reason:
@@ -212,12 +211,15 @@ As such, no similar tool has yet outpaced Bootstrap.
 ###### * That is, assuming you're using a Bootstrap 4 component that requires JavaScript to function (i.e. *tooltips* and *alerts*)
 
 ---
+
 <!-- slide 18 -->
 
 # Here's another:
 
 ##### Bootstrap does not support SASS natively. SASS speeds up CSS styling cia preprocessing (we'll learn more about this later in the term), so SASS's incompatibility can rule out Bootstrap as a viable candidate for certain projects. <sup>3</sup>
+
 ---
+
 <!-- slide 19 -->
 
 # And another:
@@ -244,10 +246,3 @@ As such, no similar tool has yet outpaced Bootstrap.
 
 3. http://www.zingdesign.com/5-reasons-not-to-use-twitter-bootstrap/
 4. http://blog.creative-tim.com/web-design/use-not-use-bootstrap-framework/
-
-
-
-<!--- things that still need to be addressed in this presentation:
-at one point the bootstrap look defined a generation of sites and maybe still does to some extent. Explain.
-Due to consistency?
-People migrating to CSS preprocessors like SASS ? --->
