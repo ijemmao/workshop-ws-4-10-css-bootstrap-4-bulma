@@ -8,7 +8,14 @@ Isaac Gluck, Robert Livaudais, Braden Pellowski, Raul Rodriguez, Kevin Xue
 
 # What is Bootstrap?
 
+<<<<<<< HEAD
 ##### Taken verbatim from their [website](https://getbootstrap.com/): 
+=======
+Taken verbatim from their [website](https://getbootstrap.com/):
+>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.
+=======
+##### Taken verbatim from their [website](https://getbootstrap.com/):
+>>>>>>> 537646d94935c008b7c71990629da64a391abc7d
 >"Bootstrap is an open source toolkit for developing with HTML, CSS, and JS."
 
 
@@ -23,6 +30,8 @@ Isaac Gluck, Robert Livaudais, Braden Pellowski, Raul Rodriguez, Kevin Xue
 
 Prior to Bootstrap's inception building from scratch was a tedious manual process.
 
+#### *There is a JavaScript component to Bootstrap, too, but this presentation will only cover the CSS component
+=======
 In the early 2010's Twitter began the construction of an internal tool used to "document and share common design patterns and assets within the company."
 
 
@@ -36,6 +45,8 @@ Twitter proceeded to release an open source version of the tool titled Bootstrap
 ##### Numerous core competencies position Bootstrap as an outstanding candidate for simple to intermediate web design
 
 ---
+> Dave, is the site mobile responsive yet?
+=======
 # Here's one
 ##### Bootstrap is mobile-first and incredibly responsive:
 > Hey, Dave — is the site mobile responsive yet?
@@ -67,6 +78,46 @@ ul.topnav li {float: left;}
 
 ---
 
+# Where does Boostrap fit into all of this?
+- [ ] dev tool
+- [x] front-end framework
+- [ ] pre-processor
+- [ ] language
+---
+
+# Bootstrap is *GREAT*; it isn't perfect
+1. style overrides
+2. verbose styles
+3. some components aren't compliant with accessibility standards
+4. generic design
+
+---
+
+# Why Bootstrap and not other libraries?
+1. cross-browser compatibility
+2. lightweight (CSS, at least 🤷) and easy to customize
+3. responsive compoents
+4. good documentation and large community
+5. templates
+6. grid system
+
+---
+
+# Where's our styling?
+
+~~~~
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+~~~~
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+=======
 # Here's another
 ##### Predefined classes enable efficient and reliable coding:
 
