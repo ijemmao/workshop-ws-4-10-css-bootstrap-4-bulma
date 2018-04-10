@@ -8,7 +8,8 @@ Isaac Gluck, Robert Livaudais, Braden Pellowski, Raul Rodriguez, Kevin Xue
 
 # What is Bootstrap?
 
-##### Taken verbatim from their [website](https://getbootstrap.com/):
+##### Taken verbatim from their [website](https://getbootstrap.com/): 
+
 >"Bootstrap is an open source toolkit for developing with HTML, CSS, and JS."
 
 
@@ -21,20 +22,19 @@ Isaac Gluck, Robert Livaudais, Braden Pellowski, Raul Rodriguez, Kevin Xue
 # Let's take a step back
 ##### How and why was Bootstrap created?
 
-Prior to Bootstrap's inception there was a severe lack of consistency across front-end web development platforms.
+Prior to Bootstrap's inception building from scratch was a tedious manual process.
 
 In the early 2010's Twitter began the construction of an internal tool used to "document and share common design patterns and assets within the company."
 
-Twitter proceeded to release an open source version of the tool titled Bootstrap, which was received  with great acclaim.
 
-Since, Bootstrap has become wildly popular, reaching second place on Github's download rankings.
+Twitter proceeded to release an open source version of the tool titled Bootstrap, which was received  with great acclaim.
 
 ---
 
-# Why use Bootstrap?
+
+# Why should you use Bootstrap?
 
 ##### Numerous core competencies position Bootstrap as an outstanding candidate for simple to intermediate web design
-
 ---
 # Here's one
 ##### Bootstrap is mobile-first and incredibly responsive:
@@ -67,110 +67,45 @@ ul.topnav li {float: left;}
 
 ---
 
-# Here's another
-##### Predefined classes enable efficient and reliable coding:
+# Where does Boostrap fit into all of this?
+- [ ] dev tool
+- [x] front-end framework
+- [ ] pre-processor
+- [ ] language
+---
 
-<!--- insert example --->
+# Bootstrap is *GREAT*; it isn't perfect
+1. style overrides
+2. verbose styles
+3. some components aren't compliant with accessibility standards
+4. generic design
 
 ---
 
-# And another...
-##### Flex boxes might be great, but Bootstrap's 12-column grid is automatically responsive allows the user a greater degree of control:
-
-<!--- insert example --->
-
-
----
-
-# Why would one NOT use Bootstrap?
-
-##### Despite its wonderful qualities, Bootstrap is not without shortcomings
+# Why Bootstrap and not other libraries?
+1. cross-browser compatibility
+2. lightweight (CSS, at least 🤷) and easy to customize
+3. responsive compoents
+4. good documentation and large community
+5. templates
+6. grid system
 
 ---
 
-# Here's one reason:
+# Where's our styling?
 
-##### Bootstrap is heavy - coming loaded with an above average amount of CSS and JS code base. Paired with a weak internet connection, pages built using Bootstrap load very slowly.
-
----
-
-# Here's another:
-
-##### Bootstrap does not support SASS natively. SASS speeds up CSS styling cia preprocessing (we'll learn more about this later in the term), so SASS's incompatibility can rule out Bootstrap as a viable candidate for certain projects.
----
-
-# And another:
-
-##### We talked earlier about how Bootstrap provides consistency among the web development community. This is a plus in one sense, but it also entails a lack of *originality*; developers wishing to truly distinguish their designs might not want to rely on the same framework as everyone else.
-
-<!-- $theme: default -->
-
-# An Introduction to Bootstrap
-
-Isaac Gluck, Robert Livaudais, Braden Pellowski, Raul Rodriguez, Kevin Xue
-
----
-
-# What is Bootstrap?
-
-##### Taken verbatim from their [website](https://getbootstrap.com/):
->"Bootstrap is an open source toolkit for developing with HTML, CSS, and JS."
-
-
-
-##### In other words, it's a well-established CSS framework of pre-written stylesheets*
-
-###### *Bootstrap also supports Javascript, however this presentation is primarily concerned with CSS and HTML
-
----
-# Let's take a step back
-##### How and why was Bootstrap created?
-
-Prior to Bootstrap's inception there was a severe lack of consistency across front-end web development platforms.
-
-In the early 2010's Twitter began the construction of an internal tool used to "document and share common design patterns and assets within the company."
-
-Twitter proceeded to release an open source version of the tool titled Bootstrap, which was received  with great acclaim.
-
-Since, Bootstrap has become wildly popular, reaching second place on Github's download rankings.
-
----
-
-# Why use Bootstrap?
-
-##### Numerous core competencies position Bootstrap as an outstanding candidate for simple to intermediate web design
-
----
-# Here's one
-##### Bootstrap is mobile-first and incredibly responsive:
-> Hey, Dave — is the site mobile responsive yet?
-
-<!-- insert frustrated GIF here --> GIF | <!-- insert confident GIF here --> GIF
---- | ---
-Forgot media queries| Used Bootstrap instead
-
----
-
-# Example
-
-#### CSS
 ~~~~
-body {margin: 0;}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-ul.topnav li {float: left;}
-...
-// 11 lines in and I'm still not moble reponsive :'(
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
 ~~~~
 
----
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
 
 # Here's another
 ##### Predefined classes enable efficient and reliable coding:
@@ -187,7 +122,17 @@ ul.topnav li {float: left;}
 
 ---
 
-# Why would one NOT use Bootstrap?
+
+# Bootstrap's ubiquity and longevity
+##### Why has Bootstrap been so popular for so long?
+
+These features have endowed Bootstrap with an incredible degree of popularity, which in turn has thusly provided a much needed level of consistency across the web development community.
+
+As such, no similar tool has yet outpaced Bootstrap.
+
+---
+
+# Why would one *not* use Bootstrap?
 
 ##### Despite its wonderful qualities, Bootstrap is not without shortcomings
 
@@ -222,6 +167,6 @@ ul.topnav li {float: left;}
 
 
 <!--- things that still need to be addressed in this presentation:
-at one point the bootstrap look defined a generation of sites and maybe still does to some extent. Explain.
+at one point the bootstrap look defined a generation of sites and maybe still does to some extent. Explain. 
 Due to consistency?
 People migrating to CSS preprocessors like SASS ? --->
