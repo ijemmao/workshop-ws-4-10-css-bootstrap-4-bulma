@@ -53,6 +53,8 @@ Navigate to: https://getbootstrap.com/docs/4.0/components/navbar/.
 
 To begin, we'll start by adding a navbar to your page. Our website utilizes the **first option**, so copy and paste the associated code and place it directly under the opening `<body>` tag.
 
+If you want, you can make the navbar stick to the top of the screen. Just add the class `sticky-top` to the `nav` element and voilá! Remember, if there is a functionality you want, there's probably a class for it.
+
 Reload your page and it should look like this.
 
 ![image...](img/nav.png)
