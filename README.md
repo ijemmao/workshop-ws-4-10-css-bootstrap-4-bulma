@@ -53,6 +53,8 @@ Navigate to: https://getbootstrap.com/docs/4.0/components/navbar/.
 
 To begin, we'll start by adding a navbar to your page. Our website utilizes the **first option**, so copy and paste the associated code and place it directly under the opening `<body>` tag.
 
+If you want, you can make the navbar stick to the top of the screen. Just add the class `sticky-top` to the `nav` element and voilá! Remember, if there is a functionality you want, there's probably a class for it.
+
 Reload your page and it should look like this.
 
 ![image...](img/nav.png)
@@ -114,6 +116,8 @@ Here's what one of these columns should look like after you're done:
 ```
 
 ![image...](img/cards.png)
+
+If you'd like to spice up your cards a little bit, Bootstrap provides a lot of options. You can use cards with images: https://getbootstrap.com/docs/4.0/components/card/#images. There are list groups: https://getbootstrap.com/docs/4.0/components/card/#list-groups. And there are plenty more. Feel free to use any of the options you see!
 
 ---
 
