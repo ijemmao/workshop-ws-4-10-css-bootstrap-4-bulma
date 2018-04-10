@@ -238,31 +238,7 @@ In case you got lost along the way, here's a look at our page with all the compo
 ---
 
 ## Additional Challenges
-Congratulations! We finished early. Lets look at some other components, or just jump to the styling section and look at options there!
-
----
-
-### Carousel
-
-Navigate to: https://getbootstrap.com/docs/4.0/components/carousel/
-
-Let's try replacing the `jumbotron` with a `carousel`. Particularly, we're interested in using the option under **With Controls**.
-
-If you thought all we had to do was copy and paste, you were right. Copy the relevant code and replace the code associated with the `jumbotron` we created earlier.
-
-Finally, we'll need to add some images. Here are same sample URLs, but feel free to find your own!
-
-1: https://www.dartmouth.edu/~dartmouthdirect/wp-content/uploads/Dartmouth-Hall.jpeg   
-
-2: https://www.library.dartmouth.edu/sites/default/files/media-images/dartmouth-library-tower-room-students-v2.jpg   
-
-3: http://www.dartreview.com/wp-content/uploads/2015/01/Baker_Winter_0.jpg
-
----
-
-### JavaScript
-
-As we haven't fully covered Javascript yet, we chose to stick mostly to the CSS component part of Bootstrap. Bootstrap also, however, provides some fun javascript functionality as well such as [Scrollspy](https://getbootstrap.com/docs/4.0/components/scrollspy/) and [Modals](https://getbootstrap.com/docs/4.0/components/modal/).
+Congratulations! We finished early. Lets look at the styling section and check out some options there! There's also some notes on implementing carousels and notes on JavaScript below.
 
 ---
 
@@ -292,3 +268,29 @@ Here, you'll find lots of styling options to add some personality to your page. 
 
 Look at what we made with a few simple classes:
 ![image...](img/styled.png)
+
+---
+
+### Carousel
+
+Navigate to: https://getbootstrap.com/docs/4.0/components/carousel/
+
+Let's try replacing the `jumbotron` with a `carousel`. Particularly, we're interested in using the option under **With Controls**.
+
+If you thought all we had to do was copy and paste, you were right. Copy the relevant code and replace the code associated with the `jumbotron` we created earlier.
+
+Finally, we'll need to add some images. Here are same sample URLs, but feel free to find your own!
+
+1: https://www.dartmouth.edu/~dartmouthdirect/wp-content/uploads/Dartmouth-Hall.jpeg   
+
+2: https://www.library.dartmouth.edu/sites/default/files/media-images/dartmouth-library-tower-room-students-v2.jpg   
+
+3: http://www.dartreview.com/wp-content/uploads/2015/01/Baker_Winter_0.jpg
+
+---
+
+### JavaScript
+
+As we haven't fully covered Javascript yet, we chose to stick mostly to the CSS component part of Bootstrap. Bootstrap also, however, provides some fun javascript functionality as well such as [Scrollspy](https://getbootstrap.com/docs/4.0/components/scrollspy/) and [Modals](https://getbootstrap.com/docs/4.0/components/modal/).
+
+---
