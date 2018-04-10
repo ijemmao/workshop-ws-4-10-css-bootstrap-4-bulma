@@ -117,6 +117,8 @@ Here's what one of these columns should look like after you're done:
 
 ![image...](img/cards.png)
 
+If you'd like to spice up your cards a little bit, Bootstrap provides a lot of options. You can use cards with images: https://getbootstrap.com/docs/4.0/components/card/#images. There are list groups: https://getbootstrap.com/docs/4.0/components/card/#list-groups. And there are plenty more. Feel free to use any of the options you see!
+
 ---
 
 ### Collapse - Accordion
