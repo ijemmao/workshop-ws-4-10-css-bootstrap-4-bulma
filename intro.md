@@ -183,7 +183,7 @@ Twitter proceeded to release an open source version of the tool titled Bootstrap
   <div class="col-auto" style="background-color:rgba(86,61,124,.15);">6</div>
 </div>
 
-#### Bootstrap *4* uses a mobile-first flexbox grid
+#### Bootstrap *4* uses a mobile-first layout grid -- a system of rows and columns that extend flex box functionality
 
 ---
 <!-- slide 3 -->
