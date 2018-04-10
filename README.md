@@ -246,7 +246,9 @@ Congratulations! We finished early. Lets look at the styling section and check o
 
 Navigate to: https://getbootstrap.com/docs/4.0/utilities/
 
-Here, you'll find lots of styling options to add some personality to your page. Maybe a few ideas? You have all of these components already!
+Here, you'll find lots of styling options to add some personality to your page.
+
+We played with some borders and colors and came up with a few ideas. Here they are, but we encourage you to mix and match some colors and styles. Some components (like the `navbar`) have notes within their `components` page too.
 
 ```HTML
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
