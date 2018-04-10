@@ -210,9 +210,9 @@ As such, no similar tool has yet outpaced Bootstrap.
 
 # Here's one reason:
 
-##### Bootstrap can be heavy - coming loaded with an above average amount of CSS and JS code base. Paired with a weak internet connection, pages built using Bootstrap load very slowly. <sup>3</sup>*
+##### Bootstrap is heavy out of the box - coming loaded with an above average amount of CSS and JS code base. Paired with a weak internet connection, pages built using Bootstrap load very slowly. <sup>3</sup>*
 
-###### * That is, assuming you're using a Bootstrap 4 component that requires JavaScript to function (i.e. *tooltips* and *alerts*)
+###### * To prevent this you can customize Bootstrap to load only the features you need while excluding heavier ones like *tooltips* and *alerts*.
 
 ---
 
@@ -225,10 +225,10 @@ As such, no similar tool has yet outpaced Bootstrap.
 ---
 
 <!-- slide 20 -->
-# Bootstrap is *GREAT*, but it isn't perfect
+# To summarize, Bootstrap is great- but it isn't *perfect*
 1. style overrides
 2. verbose classes (e.g. `list-group-item list-group-item-success`)
-3. some components aren't compliant with accessibility standards (i.e. jumbotron before Bootstrap 4 update)
+3. some components aren't compliant with accessibility standards, aren't supported in older browsers (i.e. jumbotron before Bootstrap 4 update)
 4. [generic design](http://adventurega.me/bootstrap/)
 ---
 
